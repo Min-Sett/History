@@ -45,3 +45,9 @@
     margin: 40px auto;
     text-align: center;
   }
+
+  .banner{
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+  }
