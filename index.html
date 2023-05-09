@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/90e2c00f10.js" crossorigin="anonymous"></script>
   <title>Responsive Website</title>
 </head>
 <body>
@@ -11,10 +12,11 @@
     <div class="container">
       <div class="logo">Logo</div>
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="#about-section">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">login</a></li>
       </ul>
     </div>
   </nav>
@@ -33,11 +35,11 @@
    </div>
 
   <div class="place">
-    <div class="text">
+    <div class="text" id="Services">
       <h1>Countries</h1>
     </div>
     
-    <div class="services_section">
+    <div class="services_section" >
       <div class="col-md-4">
          <div ><img src="img/Egypt.png" class="services_img"></div>
          <div class="btn_main"><a href="egypt.html">Egypt</a></div>
@@ -98,6 +100,54 @@
     </div>
 </section>
 
+<div class="main">
+  <h1>Our team</h1>
+  <div class="profile-card">
+      <div class="img">
+          <img src="img/Brazil.png">
+      </div>
+      <div class="caption">
+          <h3>Min Sett</h3>
+          <p>Programmer</p>
+          <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+      </div>
+  </div>
+  <div class="profile-card">
+      <div class="img">
+          <img src="img/Brazil.png">
+      </div>
+      <div class="caption">
+          <h3>Kaung Pyae</h3>
+          <p>Programmer</p>
+          <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+      </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-content">
+      <h3>History</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste corrupti doloribus odio sed!</p>
+      <ul class="socials">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-google"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+      </ul>
+  </div>
+  <div class="footer-bottom">
+      <p>copyright &copy;All right reserved | designed by <span>Min_Sett</span></p>
+  </div>
+</footer>
   
 </body>
 </html>
