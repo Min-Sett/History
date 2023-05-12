@@ -1,5 +1,4 @@
  *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
  }
@@ -10,6 +9,7 @@
   
   body {
     font-family: Arial, sans-serif;
+    overflow-x: hidden;
   }
   
   nav {
@@ -26,8 +26,12 @@
     margin: 0 auto;
   }
   
-  .logo {
-    font-size: 24px;
+  .logo img{
+    position: relative;
+    width: 150px;
+    height: 30px;
+    margin: 0;
+    filter: brightness(0) invert(1);
   }
   
   .nav-links {
@@ -121,6 +125,7 @@
   font-weight: bold;
   margin-top: 40px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .btn_main a:hover {
@@ -157,15 +162,23 @@
 }
 
 .about-right h1 {
+  position: relative;
   color: #000000;
   font-size: 37px;
   margin-bottom: 5px;
+  right: 50px;
 }
 
 .about-right p {
   color: #444;
   line-height: 26px;
   font-size: 15px;
+}
+
+.about-text{
+  position: relative;
+  width: 600px;
+  right: 50px;
 }
 
 .about-right .address {
@@ -600,15 +613,23 @@ textarea::-webkit-scrollbar-thumb{
 
 /*Egyptpage*/
 
+.main2{
+  position: absolute;
+  height: 100%;
+}
+
 .banner2 img{
   position: relative;
   width: 100%;
+  display: block;
 }
+
 
 .banner2{
   position: relative;
   background-color: rgb(205, 181, 107);
-  height: 5000px;
+  height: 3500px;
+  margin-bottom: -20px;
 }
 
 .overlay::after{
@@ -619,7 +640,7 @@ textarea::-webkit-scrollbar-thumb{
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(to top, rgba(205, 181, 107, 1), rgba(95, 158, 160, 0), rgba(95, 158, 160, 0));
+  background-image: linear-gradient(to top, rgb(205, 181, 107), rgba(95, 158, 160, 0), rgba(95, 158, 160, 0));
 }
 
 .overlay{
@@ -629,8 +650,9 @@ textarea::-webkit-scrollbar-thumb{
 
 .text2{
 margin:0 auto;
-position: relative;
-bottom: 4700px;
+position: absolute;
+top: 500px;
+left: 10%;
 background: white;
 max-width: 1100px;
 padding:20px;
@@ -640,9 +662,11 @@ box-shadow: 0px 0px 20px #000;
  text-align: justify;
 }
 
+
+
 .title{
   position: relative;
-  bottom: 4730px;
+  bottom: 3200px;
   margin: 0 0;
   text-align: justify;
   margin-left: 190px;
@@ -657,3 +681,149 @@ box-shadow: 0px 0px 20px #000;
   padding-top: 8px;
   padding-bottom: 8px;
 }
+
+/*Egypt end*/
+
+/*Italy*/
+
+.main2{
+  position: absolute;
+  height: 100%;
+}
+
+.banner1 img{
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+
+.banner1{
+  position: relative;
+  background-color: rgb(28, 134, 200);
+  height: 3000px;
+  margin-bottom: -20px;
+}
+
+.overlay2::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to top, rgb(28, 134, 200), rgba(95, 158, 160, 0), rgba(95, 158, 160, 0));
+}
+
+.overlay2{
+  position: relative;
+  margin-top: 0px;
+}
+
+.text1{
+margin:0 auto;
+position: absolute;
+top: 500px;
+left: 10%;
+background: white;
+max-width: 1100px;
+padding:20px;
+border-color: #000;
+border-radius: 10px;
+box-shadow: 0px 0px 20px #000;
+text-align: justify;
+}
+
+
+.title1{
+  position: relative;
+  bottom: 2700px;
+  margin: 0 0;
+  text-align: justify;
+  margin-left: 190px;
+  color: white;
+  font-size: 100px;
+}
+
+.sub-title{
+  text-align:justify;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/*Italy end*/
+
+/*brazil*/
+
+.main2{
+  position: absolute;
+  height: 100%;
+}
+
+.banner1 img{
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+
+.banner1{
+  position: relative;
+  background-color: rgb(28, 134, 200);
+  height: 3000px;
+  margin-bottom: -20px;
+}
+
+.overlay2::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to top, rgb(28, 134, 200), rgba(95, 158, 160, 0), rgba(95, 158, 160, 0));
+}
+
+.overlay2{
+  position: relative;
+  margin-top: 0px;
+}
+
+.text1{
+margin:0 auto;
+position: absolute;
+top: 500px;
+left: 10%;
+background: white;
+max-width: 1100px;
+padding:20px;
+border-color: #000;
+border-radius: 10px;
+box-shadow: 0px 0px 20px #000;
+text-align: justify;
+}
+
+
+.title1{
+  position: relative;
+  bottom: 2700px;
+  margin: 0 0;
+  text-align: justify;
+  margin-left: 190px;
+  color: white;
+  font-size: 100px;
+}
+
+.sub-title{
+  text-align:justify;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/*brazil end*/
